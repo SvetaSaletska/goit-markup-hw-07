@@ -1,1 +1,11 @@
-body {background-color: teal};
+@import './utils/vars';
+@import './base/reset';
+@import './base/common';
+@import './components/container';
+@import './utils/visually-hidden';
+@import './layouts.scss/header';
+@import './layouts.scss/hero';
+
+@import './layouts.scss/footer';
+@import './layouts.scss/portfolio';
+
