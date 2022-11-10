@@ -30,11 +30,6 @@
         margin-bottom: 9px;
     }
     
-    .footer-item .link:hover,
-    .footer-item .link:focus {
-        color: var(--accent-color);
-    }
-    
     .footer-text,
     .sign-up-text {
     font-weight: 700;
@@ -93,20 +88,18 @@
         outline: transparent;
         transition: border var(--timing);
         color: #FFFFFF;
-    }
-    
-    .sign-up-mail:focus {
-        border: 1px solid var(--accent-color);
-    }
-    
-    .sign-up-mail::placeholder {
-        font-size: 16px;
-        line-height: 1.25;
-        display: flex;
-        align-items: center;
-        padding-right: 16px;
-        
-        color: rgba(255, 255, 255, 0.6);
+        &:focus {
+            border: 1px solid var(--accent-color);
+        }
+        &::placeholder {
+            font-size: 16px;
+            line-height: 1.25;
+            display: flex;
+            align-items: center;
+            padding-right: 16px;
+            
+            color: rgba(255, 255, 255, 0.6);
+        }
     }
     
     .form-container {

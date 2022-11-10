@@ -147,12 +147,12 @@ body {
   gap: 50px;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
 
-.header-navigation {
+.navigation {
   display: flex;
   align-items: center;
 }
@@ -184,7 +184,7 @@ body {
   color: var(--accent-color);
 }
 
-.header-link {
+.menu__link {
   display: block;
   position: relative;
   padding-top: 32px;
@@ -208,7 +208,7 @@ body {
   bottom: -1px;
 }
 
-.header-link,
+.menu__link,
 .header-mail,
 .header-tel {
   display: flex;

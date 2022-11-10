@@ -8,4 +8,20 @@ body {
 
 .link {
 text-decoration: none;
+.header-list &:hover,
+.header-list &:focus {
+    color: var(--accent-color);
+}
+.header-list &:active {
+    color: var(--accent-color);
+}
+.header-contacts &:hover,
+.header-contacts &:focus {
+    color: var(--accent-color);
+}
+.footer-item &:hover,
+.footer-item &:focus {
+        color: var(--accent-color);
+    }
+
 }

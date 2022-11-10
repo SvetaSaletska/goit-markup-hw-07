@@ -78,14 +78,9 @@ color: #212121;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     outline: transparent;
-}
-
-.modal-input:focus {
-    border: 1px solid var(--accent-color);
-}
-
-.modal-input:focus + .modal-input-icon {
-    fill: var(--accent-color);
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
 
 .form-btn {
@@ -133,6 +128,9 @@ color: #212121;
     left: 12px;
     transform: translateY(-50%);
     transition: fill var(--timing);
+    .modal-input:focus + & {
+        fill: var(--accent-color);
+    }
 }
 
 .modal-comments {
@@ -145,18 +143,16 @@ color: #212121;
     padding: 12px 16px;
     outline: transparent;
     transition: border var(--timing);
-}
-
-.modal-comments::placeholder {
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-
-    color: rgba(117, 117, 117, 0.5);
-}
-
-.modal-comments:focus {
-    border: 1px solid var(--accent-color);
+    &::placeholder {
+        font-size: 12px;
+        line-height: 1.16;
+        letter-spacing: 0.01em;
+    
+        color: rgba(117, 117, 117, 0.5);
+    }
+    &:focus {
+        border: 1px solid var(--accent-color);
+    }
 }
 
 .checkbox-label {
@@ -191,10 +187,9 @@ align-items: center;
 justify-content: center;
 fill: transparent;
 transition: background-color var(--timing);
-}
-
-.checkbox:checked + .checkbox-icon {
+.checkbox:checked + & {
     background-color: var(--accent-color);
     border-color: transparent;
     fill: var(--white-color);
+}
 }
