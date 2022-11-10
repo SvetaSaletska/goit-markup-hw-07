@@ -35,7 +35,7 @@
     }
     
     .section-item-card {
-        max-width: calc((100% - 60) / 3);
+        max-width: calc((100% - 60px) / 3);
         transition: box-shadow var(--timing);  
     }
     
