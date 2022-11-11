@@ -8,11 +8,11 @@ body {
 
 .link {
 text-decoration: none;
-.header-list &:hover,
-.header-list &:focus {
+.menu &:hover,
+.menu &:focus {
     color: var(--accent-color);
 }
-.header-list &:active {
+.menu &:active {
     color: var(--accent-color);
 }
 .header-contacts &:hover,
