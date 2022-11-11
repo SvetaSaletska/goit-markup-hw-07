@@ -43,7 +43,8 @@
         margin-bottom: 10px;
     }
     
-    .section-title {
+    .section-title,
+    .features__title {
     margin-bottom: 50px;
     
     font-weight: 700;
@@ -53,12 +54,12 @@
     color: var(--secondary-text-color);
     }
     
-    .section-list-features {
+    .features__list {
     display: flex;
     gap: 30px;
     }
     
-    .section-item-features {
+    .features__item {
         width: calc((100% - 60px) / 3);
     }
     
@@ -66,11 +67,11 @@
         padding-top: 0;
     }
     
-    .top-text-wrap {
+    .features__wrap {
     position: relative;
     }
     
-    .top-text-features {
+    .features__top-text {
     position: absolute;
     display: flex;
     width: 100%;

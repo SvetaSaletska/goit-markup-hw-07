@@ -13,43 +13,43 @@
     
 </head>
 <body>
-    <!--Шапка сайту-->
-    <header class="header">
-        <div class="container header-container">
-            <nav class="navigation">
-            <a href="/" class="header-logo">
-                <span class="header-logo-part">Web</span>Studio
-            </a>
-            <ul class="header-list">
-                <li class="header-item"><a href="" class="header-link link current">Студія</a></li>
-                <li class="header-item"><a href="./portfolio.html" class="header-link link">Портфоліо</a></li>
-                <li class="header-item"><a href="" class="header-link link">Контакти</a></li>
-            </ul>
-        </nav>
-            <ul class="header-contacts">
-                <li class="header-item">
-                    <a href="mailto:info@devstudio.com" class="header-mail link">
-                        <svg class="mail-icon" width="16px" height="12px">
-                            <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
-                        </svg>
-                        info@devstudio.com</a>
-                </li>
-                <li class="header-item">
-                    <a href="tel:+380961111111" class="header-tel link">
-                            <svg class="tel-icon" width="10px" height="16px">
-                                <use href="./images/symbol-defs.svg#icon-smartphone"></use>
-                            </svg>
-                        +38 096 111 11 11</a>
-                </li>
-            </ul>
-        </div>
-    </header>
+<!--Шапка сайту-->
+<header class="header">
+    <div class="container header__container">
+        <nav class="navigation">
+        <a href="/" class="logo navigation__logo">
+            <span class="logo__part">Web</span>Studio
+        </a>
+        <ul class="menu list">
+            <li class="menu__item"><a href="" class="menu__link link current">Студія</a></li>
+            <li class="menu__item"><a href="./portfolio.html" class="menu__link link">Портфоліо</a></li>
+            <li class="menu__item"><a href="" class="menu__link link">Контакти</a></li>
+        </ul>
+    </nav>
+      <ul class="contacts header__contacts">
+        <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="contacts__mail link">
+                <svg class="contacts-icon__mail" width="16px" height="12px">
+                    <use href="./images/symbol-defs.svg#icon-envelope-hover"></use>
+                </svg>
+                info@devstudio.com</a>
+        </li>
+        <li class="contacts__item">
+            <a href="tel:+380961111111" class="contacts__tel link">
+                <svg class="contacts-icon__tel" width="10px" height="16px">
+                    <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a>
+        </li>
+      </ul>
+    </div>
+</header> 
     <main> 
     <!--Герой-->
             <section class="hero">
                 <div class="hero-content">
                     <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                    <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
+                    <button type="button" class="hero-button btn--blu" data-modal-open>Замовити послугу</button>
                 </div>
             </section>
         <!--Особливості-->
@@ -97,26 +97,26 @@
             </div>
         </section>
         <!--Чим займаємось-->
-        <section class="section features">
-            <div class="container">
-                <h2 class="section-title">Чим ми займаємося</h2>
-                <ul class="section-list-features">
-                    <li class="section-item-features">
-                        <div class="top-text-wrap">
+        <section class="features section">
+            <div class="container features__container">
+                <h2 class="features__title">Чим ми займаємося</h2>
+                <ul class="features__list">
+                    <li class="features__item">
+                        <div class="features__wrap">
                             <img src="./images/img1.jpg" alt="програміст працює на робочому столі" width="370">
-                            <p class="top-text-features">Десктопні додатки</p>
+                            <p class="features__top-text">Десктопні додатки</p>
                         </div>
                     </li>
-                    <li class="section-item-features">
-                        <div class="top-text-wrap">
+                    <li class="features__item">
+                        <div class="features__wrap">
                             <img src="./images/img2.jpg" alt="дизайнери розробляють додаток для смартфонів" width="370">
-                            <p class="top-text-features">Мобільні додатки</p>
+                            <p class="features__top-text">Мобільні додатки</p>
                         </div>
                     </li>
-                    <li class="section-item-features">
-                        <div class="top-text-wrap">
+                    <li class="features__item">
+                        <div class="features__wrap">
                             <img src="./images/img3.jpg" alt="графічний дизайнер вибирає кольри на планшеті " width="370">
-                            <p class="top-text-features">Дизайнерські рішення</p>
+                            <p class="features__top-text">Дизайнерські рішення</p>
                         </div>
                     </li>
                 </ul>
