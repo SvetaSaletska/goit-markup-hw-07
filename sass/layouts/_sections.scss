@@ -44,7 +44,8 @@
     }
     
     .section-title,
-    .features__title {
+    .features__title,
+    .customers__title {
     margin-bottom: 50px;
     
     font-weight: 700;
@@ -155,16 +156,16 @@
     }
     }
     
-    .customers-list {
+    .customers__list {
         display: flex;
         gap: 30px;
     }
     
-    .customers-item {
+    .customers__item {
         width: calc((100% - 150px) / 6);
     }
     
-    .customers-link {
+    .customers__link {
         display: flex;
         max-width: 170px;
         height: 92px;
